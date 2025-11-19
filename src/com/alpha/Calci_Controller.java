@@ -11,7 +11,7 @@ public class Calci_Controller {
 	while(flag) {
 		System.out.println(" Welcome !");
 		System.out.println("1: Enter 1 to Addition");
-		System.out.println("2: Enter 2 to Subtract");
+		System.out.println("2: Enter 2 to Subtraction");
 		System.out.println("3: Enter 3 to Multiplication");
 		System.out.println("4: Enter 4 to Division");
 		System.out.println("5: Enter 5 to EXIT");
@@ -22,7 +22,8 @@ public class Calci_Controller {
 			System.out.println("Enter two values");
 			int a=sc.nextInt();
 			int b=sc.nextInt();
-			cal.add(a, b);
+			int sum = cal.add(a, b);
+			System.out.println("sum = "+sum);
 			break;
 		}
 		
@@ -30,7 +31,8 @@ public class Calci_Controller {
 			System.out.println("Enter two values");
 			int a=sc.nextInt();
 			int b=sc.nextInt();
-			cal.sub(a, b);
+			int diff = cal.sub(a, b);
+			System.out.println("Difference = "+diff);
 			break;
 			
 		}
@@ -39,7 +41,8 @@ public class Calci_Controller {
 			System.out.println("Enter two values");
 			int a=sc.nextInt();
 			int b=sc.nextInt();
-			cal.mul(a, b);
+			int mul = cal.mul(a, b);
+			System.out.println("Multiplication = "+mul);
 			break;
 			
 		}
@@ -48,7 +51,8 @@ public class Calci_Controller {
 			System.out.println("Enter two values");
 			int a=sc.nextInt();
 			int b=sc.nextInt();
-			cal.div(a, b);
+			int div = cal.div(a, b);
+			System.out.println("Division = "+div);
 			break;
 			
 		}
