@@ -4,8 +4,9 @@ public class Calculator_Implementation implements Calculator{
 
 	@Override
 	public int add(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+		// implementing add method
+		int sum=a+b;
+		return sum;
 	}
 
 	@Override
@@ -22,8 +23,9 @@ public class Calculator_Implementation implements Calculator{
 
 	@Override
 	public int div(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+		// implementing div method
+		int res=a/b;
+		return res;
 	}
 
 }
