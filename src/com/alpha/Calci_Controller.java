@@ -9,7 +9,7 @@ public class Calci_Controller {
 	boolean flag = true;
 	
 	while(flag) {
-		System.out.println(" Welcome !");
+		System.out.println("Welcome to the Calci");
 		System.out.println("1: Enter 1 to Addition");
 		System.out.println("2: Enter 2 to Subtraction");
 		System.out.println("3: Enter 3 to Multiplication");
